@@ -10,6 +10,4 @@ dbs:
         path: "kuma.db"
         endpoint: "${LITESTREAM_URL}"
         region: "${LITESTREAM_REGION}"
-        retention: 72h
-        snapshot-interval: 12h
         restore: true
