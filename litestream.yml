@@ -10,4 +10,5 @@ dbs:
         path: "kuma.db"
         endpoint: "${LITESTREAM_URL}"
         region: "${LITESTREAM_REGION}"
+        retention: 24h
         restore: true
